@@ -12,7 +12,7 @@ This is the singularity image of the metagenome atlas (v2.8.1). For further info
 
 `Usage: atlas [OPTIONS] COMMAND [ARGS]...` \
 `ATLAS - workflows for assembly, annotation, and genomic binning of metagenomic and metatranscriptomic data.` \
-`For updates and reporting issues, see: https://github.com/metagenome-atlas/atlas` \
+`For updates and reporting issues, see: https://github.com/metagenome-atlas/atlas`
   
 `Options:` \
   `--version   Show the version and exit.` \
