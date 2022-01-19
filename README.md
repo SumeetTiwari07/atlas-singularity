@@ -23,5 +23,5 @@ This is the singularity image of the metagenome atlas (v2.8.1). For further info
   `init      prepare configuration file and sample table for atlas run` \
   `run       run atlas main workflow`
 
-**For citation**
-ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data. Kieser, S., Brown, J., Zdobnov, E. M., Trajkovski, M. & McCue, L. A. BMC Bioinformatics 21, 257 (2020). doi: 10.1186/s12859-020-03585-4
+**For citation** \
+ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data. Kieser, S., Brown, J., Zdobnov, E. M., Trajkovski, M. & McCue, L. A. BMC Bioinformatics 21, 257 (2020). https://doi.org/10.1186/s12859-020-03585-4
