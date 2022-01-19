@@ -7,7 +7,8 @@ This is the singularity image of the metagenome atlas (v2.8.1). For further info
 **To make image file from def file using singularity** \
 `sudo singularity build atlas-2.8.1.sif atlas-2.8.1.def`
 
-**Run singularity image** \
+**Run singularity image**
+  
 ```
   singularity exec atlas-2.8.1.sif atlas --help
   
