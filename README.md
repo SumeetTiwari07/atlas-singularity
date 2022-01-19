@@ -1,12 +1,12 @@
 # atlas-singularity
 <p align="justify">
 
-**Introduction:** \
+**Introduction:**
     This is the singularity image of the metagenome atlas (v2.8.1). For further information about the pipeline https://metagenome-atlas.readthedocs.io/en/latest/
 
-**To make image file from def file using singularity** \
+**To make image file from def file using singularity**
 
-cmd: `sudo singularity build atlas-2.8.1.sif atlas-2.8.1.def`
+`sudo singularity build atlas-2.8.1.sif atlas-2.8.1.def`
 
 **Run singularity image**
 
