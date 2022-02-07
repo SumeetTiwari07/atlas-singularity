@@ -21,10 +21,21 @@ From: centos:centos7.6.1810
     /opt/software/conda/bin/conda config --add channels defaults
     /opt/software/conda/bin/conda config --add channels bioconda
     /opt/software/conda/bin/conda config --add channels conda-forge
+    /opt/software/conda/bin/conda config --add channels ruby-lang
 
     /opt/software/conda/bin/conda install -y -c conda-forge mamba
     /opt/software/conda/bin/mamba create -p /opt/software/atlasenv -y metagenome-atlas=2.8.1
     source /opt/software/conda/bin/activate /opt/software/atlasenv
+
+    #mkdir /opt/software/reads
+    #touch /opt/software/reads/S1_R1.fastq
+    #touch /opt/software/reads/S1_R2.fastq
+
+    #atlas download -d /opt/software/atlasdb --use-conda --conda-create-envs-only --cores all
+    #atlas init -d /opt/software/atlasdb -w . /opt/software/reads/
+    #atlas run -w . all --use-conda --conda-create-envs-only --cores all
+    /opt/software/conda/bin/conda clean -y --all
+    #rm -rf /opt/software/reads
     cd /opt/software
 
 %runscript
